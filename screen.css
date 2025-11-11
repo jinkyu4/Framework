@@ -1,4 +1,45 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
-}
+    body {
+      background: radial-gradient(circle at top, #3b0066 0%, #000 80%);
+      color: #f5f3ff;
+      font-family: 'Trebuchet MS', sans-serif;
+    }
+    header, footer {
+      text-align: center;
+      margin: 2rem 0;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      color: #f0c420;
+    }
+    form {
+      background-color: rgba(255, 255, 255, 0.05);
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(240, 196, 32, 0.3);
+    }
+    input, textarea {
+      background-color: rgba(255, 255, 255, 0.1);
+      border: 1px solid #4b0082;
+      color: #fff;
+    }
+    input:focus, textarea:focus {
+      outline: 2px solid #f0c420;
+    }
+    button {
+      background-color: #f0c420;
+      color: #000;
+      border: none;
+      padding: 0.75rem 1.5rem;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: transform 0.2s ease, background-color 0.3s;
+    }
+    button:hover {
+      background-color: #ffe36d;
+      transform: scale(1.05);
+    }
+    footer {
+      font-size: 0.9rem;
+      color: #b8aaff;
+      margin-top: 3rem;
+    }
